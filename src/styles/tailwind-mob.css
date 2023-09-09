@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Inter";
+  src: url("../../public/fonts/Inter.woff2");
+}
+@font-face {
+  font-family: "Sc";
+  src: url("../../public/fonts/PingFang SC.woff2");
+}
+@font-face {
+  font-family: "Scr";
+  src: url("../../public/fonts/PingFang SC Regular.woff2");
+}
+@font-face {
+  font-family: "Lora";
+  src: url("../../public/fonts/Lora.woff2");
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("../../public/fonts/Rubik.woff2");
+}
+
+*{
+  --color-first:#00B0F0;
+  --color-second:#ED7D31;
+  --color-third:#F654C8;
+  --color-four:#FFC000;
+  --color-five:#F0385F;
+  --color-six:#92D050;
+  --color-seven:#9e5ece;
+}
+
+body {
+  background: rgba(217, 217, 217, 0.25);
+}
